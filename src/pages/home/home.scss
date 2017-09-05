@@ -1,0 +1,25 @@
+page-home {
+
+}
+
+#paragrafro-resultado{
+  margin-top: 20px;
+}
+
+.align-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc( 100vh - 100px );
+  flex-direction: column;
+}
+
+.align-center p{
+  margin-bottom: 50px;
+}
+
+#bt-close{
+  float: right;
+  display: none;
+}

@@ -1,0 +1,15 @@
+<ion-content padding style="background: none transparent;">
+  <div class="container">
+    <button md-raised-button (click)="closeQRCode()" id="bt-close">
+      <i class="material-icons">close</i>
+    </button>
+    <div class="align-center" id="a-center">
+        <p class="text-center">
+          <img src="assets/icon/logo.png" width="50%">
+        </p>
+        <p id="paragrafro-resultado"></p>
+        <button md-raised-button (click)="readQRCode()"> Ler QRCode </button>
+    </div>
+
+  </div>
+</ion-content>
